@@ -1,3 +1,16 @@
+# https://NetPulse.app
+
+### How I created this repo
+```
+git clone https://github.com/joshbuchea/awesome-app-landing-page.git netpulse-website
+cd netpulse-website
+# (create a repo on github.com and get url)
+git remote set-url origin https://marcvanh@github.com/marcvanh/netpulse-website.git
+git push
+```
+
+### (original readme follows)
+
 # Awesome App Landing Page
 
 **Get an awesome landing page for your iOS app in less than 30 seconds (seriously)**
