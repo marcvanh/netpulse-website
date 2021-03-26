@@ -2,7 +2,7 @@
 
 ### How I created this repo
 ```
-git clone https://github.com/joshbuchea/awesome-app-landing-page.git netpulse-website
+git clone https://github.com/emilbaehr/automatic-app-landing-page.git netpulse-website2
 cd netpulse-website
 # (create a repo on github.com and get url)
 git remote set-url origin https://marcvanh@github.com/marcvanh/netpulse-website.git
@@ -11,112 +11,117 @@ git push
 
 ### (original readme follows)
 
-# Awesome App Landing Page
 
-**Get an awesome landing page for your iOS app in less than 30 seconds (seriously)**
+# Automatic App Landing Page
+**Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
 
-It's easy to try out, you can just delete your forked repository if you don't like it
+Designed for GitHub Pages for super easy set up. 
 
-In less than 30 seconds you'll be set up with an awesome app landing page like the one below giving you more time to spend making awesome apps! All without leaving your browser.
+🔧 Fork this repo
 
-![Awesome App Landing Page Theme Screenshot](/images/awesome-app-landing-page-screenshot.png "Awesome App Landing Page Theme Screenshot")
+🗝 Enter iOS App ID in `_config.yml`
 
-## Features
+📲 Upload video preview or screenshot
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create and customize your awesome app landing page
-✓ Free & Automatic Hosting with GitHub Pages
-✓ Fully Responsive Base Theme (**<a href="http://joshbuchea.github.io/awesome-app-landing-page">Demo</a>**)
-✓ Apple Devices for Screenshots
-✓ Apple Smart App Banner
-✓ Google Analytics Integration
-✓ Social Icons
-✓ Sass Support
-✓ Bootstrap
-✓ Font Awesome
+🎨 Customise site in `_config.yml` (no HTML/CSS)
 
-✘ No installing dependencies
-✘ No need to set up local development
-✘ No configuring plugins
-✘ No need to spend time on theming
-✘ More time to code other things ... wait ✓!
+📝 Write Privacy Policy as markdown in `privacypolicy.md`
+
+🕒 Keep a changelog in `CHANGELOG.md`
+
+✅ Site becomes live at GitHub Pages repository URL, e.g. `https://your-username.github.io/your-repo-name/`.
+
+<img src="https://emilbaehr.com/files/jayson1.png" width="440"> <img src="https://emilbaehr.com/files/slor1.png" width="440">
+
+
+
 
 ## Quick Start
 
-### Step 1) Fork this repo
+### Step 1: Fork this repo.
+After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
-![Step 1](/images/fork.png "Step 1")
+*Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.*
 
-Your Awesome App Landing Page will often be viewable immediately at `http://username.github.io/awesome-app-landing-page` (if it's not, you can often force it to build by completing step 2)
 
-**IMPORTANT**: Don't forget to replace **username** with the GitHub **user name** or **organization name** you forked the repo to.
 
-### Step 2) Edit `_config.yml` to customize
+### Step 2: Enter iOS App ID in `_config.yml`
+Enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app icon, name, price and link to App Store.
 
-Enter required information:
-- **App Name**
-- **iOS App ID** (10 Digit Numeric App ID)
+You can go on with customising almost anything in the `_config.yml` file. 
 
-Optionally enter additional information:
-- Android App ID (e.g. com.example.appname)
-- App Icon (will auto-magically load if left blank)
-- App Screenshot (will auto-magically load if left blank)
-- App Preview (if you want this instead of a screenshot)
-- App and Creator Twitter handles
-- Image for sharing on Social Media
-- Your own Favicon
-- Marketing Header
-- Marketing Description
-- Social Links
-- Hide/Show App Icon
-- Hide/Show Smart App Banner
-- Full Screen Background Image (optional)
-- Site Title & Description
-- Google Analytics Site ID
+Things you can customise in `_config.yml`:
+- App Name
+- App Icon
+- App Description
+- App Price
+- App Store Link
+- Play Store Link
+- Press Kit Download Link
+- Cover Image
+- Cover Overlay Color
+- Background Color
+- Text Colors
+- iPhone Device Color
+- Your Name / Company Name
+- Link to Website
+- Social Links and Contact Info
+- Feature List (Title, text, icon)
 
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at `http://username.github.io/repository-name` - if not, give it ten minutes as GitHub suggests and it'll appear soon
 
-> There are 2 different ways that you can make changes to your page's files:
 
-> 1. Edit files within your repository in the browser at GitHub.com (shown below).
-> 2. Clone down your repository and make updates locally, then push them to your GitHub repository.
+### Step 3: Add screenshot or video
 
-![_config.yml](/images/config.png "_config.yml")
+#### Adding a screenshot
+Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter. Be sure to delete the placeholder `yourscreenshot.png`.
 
-## Local Development (Optional)
+#### Adding video
+Upload your video to the folder `assets/videos/`. To have support for most browsers, you need to upload two files – one for Safari and one for Chrome/Firefox.
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/repository-name.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the `gh-pages` branch of your repository. GitHub Pages will then rebuild and serve your website.
+Video formats supported by Chrome and Firefox:
+- `.webm`
+- `.ogg`
+
+Video formats supported by Safari:
+- `.mp4`
+- `.mov`
+
+#### Resolutions
+The videos and screenshots must have one of the following resolutions:
+- 828x1792
+- 1125x2436
+- 1242x2688
+
+
+
+### Step 4: Edit (or remove) Privacy Policy and Changelog
+Your site automatically includes pages for a Privacy Policy and a Changelog. Change the content of these pages by editing the `privacypolicy.md` and `CHANGELOG.md` files in the `_pages` directory.
+
+In each of the markdown files, you can set the `include_in_header:` value to either `true` or `false`. This determines if the page is included in the top navigation.
+By default, only the Changelog is included in the top navigation. The title of the navigation item can also be edited, by editing the `title:` in each markdown file.
+
+If you need to, you can create additional markdown based pages just by creating an `.md` file like the `privacypolicy.md` and `CHANGELOG.md` files in the `_pages` directory.
+
+**Please note:** The Privacy Policy and Changelog provided are written using dummy text, so please adapt each of them for your own app.
+You can also choose not to include these pages, by simple deleting the `privacypolicy.md` and `CHANGELOG.md` files.
+
+
+
+
+## Feedback
+If you have feedback regarding bugs or improvements, open an issue, @ me on Twitter or write me an email. You can find my contact info on my website.
+
+I'd love to see the sites you create using this little tool.
 
 ## Credits
-
-- [GitHub Pages](https://pages.github.com/)
-- [Jekyll Now](https://github.com/barryclark/jekyll-now)
 - [Jekyll](https://github.com/jekyll/jekyll)
-- [Bootstrap](https://github.com/mdo/bootstrap)
-- [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
+- [FontAwesome](https://fontawesome.github.io/Font-Awesome/)
 
-## Awesome App Landing Pages
-
-Once you setup your **Awesome App Landing Page**, please open a pull request and add your site!
-
-- [FeedShare](http://feedshare.org/ "Find & Share Free Food")
-- [My Playparks](https://myplayparks.com/ "Browse near by playgrounds")
-
-## Questions?
-
-[Open an Issue](https://github.com/joshbuchea/awesome-app-landing-page/issues/new) and let's chat!
-
-## Contributing
-
-Open an issue or a pull request to suggest changes or additions.
+## Donations
+[Donations are welcome](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S8ZZT3JXJPN92&currency_code=USD&source=url)
 
 ## Author
-
-**[Josh Buchea](http://joshbuchea.com/)**
+[Emil Baehr](https://emilbaehr.com/)
 
 ## License
-
 [MIT License](LICENSE)

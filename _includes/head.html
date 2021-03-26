@@ -1,39 +1,19 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>{% if site.title %}{{ site.title }}{% else %}{{ site.app.name }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base target="_blank">
 
-  <!-- Favicon -->
-  {% if site.app.favicon %}
-  <link rel="shortcut icon" href="{{ site.app.favicon }}">
-  {% endif %}
-  <link rel="apple-touch-icon-precomposed" href="apple-icon-precomposed.png">
+	<title class="pageTitle">{{ site.page_title }}</title>
+	<meta name="description" content="{{ site.app_description }}">
 
-  {% if site.enable.smart_app_banner %}
-  <!-- Smart App Banner -->
-  <meta name="apple-itunes-app" content="app-id={{ site.app.ios_id }}">
-  {% endif %}
+	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
 
-  <!-- Social media management -->
-  {% include socialcard.html %}
+	<!-- Smart App Banner -->
+	{% if site.enable_smart_app_banner %}
+		<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
+	{% endif %}
 
-  <!-- Open All Links In A New Tab/Window -->
-  <base target="_blank">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="themes/default/styles.css">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Created with Awesome App Landing Page - http://github.com/joshbuchea/awesome-app-landing-page -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 </head>
