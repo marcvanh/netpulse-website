@@ -34,6 +34,34 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+  - title                                 : Boost Your Wireless in Seconds!
+    description                           : Wireless "Geiger Counter" feature quickly locates stronger wireless signals.
+    fontawesome_icon_name                 : signal
+
+  - title                                 : For Cellular, WiFi & Satellite!
+    description                           : Fully compatible with nearly any wireless voice and data network globally.
+    fontawesome_icon_name                 : broadcast-tower
+
+  - title                                 : Simple Interface!
+    description                           : Easy-to-use interface designed for novices, gamers & pros alike!
+    fontawesome_icon_name                 : tachometer-alt
+
+  - title                                 : Highly Useful & Flexible!
+    description                           : Improve your call quality, boost a WiFi router, aim a 4G/5G gateway or satellite dish.
+    fontawesome_icon_name                 : toolbox
+
+  - title                                 : Detailed Signal Indicators
+    description                           : See your real-time, 2-way wireless performance in high resolution (unlike low-res "Signal Bars").
+    fontawesome_icon_name                 : map-marked-alt
+
+  - title                                 : Advanced Tools!
+    description                           : Includes advanced tools for gamers and pros to reduce latency & fine-tune coverage.
+    fontawesome_icon_name                 : gamepad
+
+  - title                                 : No Hardware Required!
+    description                           : NetPulse works on any iOS or Android device and requires no setup or additional hardware.
+    fontawesome_icon_name                 : microchip
+
 #  - title                                 : Improve phone call quality
 #    description                           : Improve phone call quality and reduce dropped calls
 #    fontawesome_icon_name                 : sync
@@ -70,9 +98,6 @@ features                                  :
 #    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
 #    fontawesome_icon_name                 : info-circle
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 
 
