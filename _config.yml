@@ -36,8 +36,8 @@ features                                  :
 
   - title                                 : Improve phone call quality
     description                           : Improve phone call quality and reduce dropped calls
-    fontawesome_icon_name                 : diaspora
-#
+    fontawesome_icon_name                 : sync
+
 #  - title                                 : iPhone Device Preview
 #    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
 #    fontawesome_icon_name                 : mobile
