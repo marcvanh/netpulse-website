@@ -22,7 +22,7 @@ enable_smart_app_banner                   : false #true                         
 your_name                                 : MartySoft, LLC
 your_link                                 :
 your_city                                 :
-email_address                             :
+email_address                             : info@netpulse.app
 facebook_username                         :
 instagram_username                        :
 twitter_username                          :
@@ -36,7 +36,7 @@ features                                  :
 
   - title                                 : Improve phone call quality
     description                           : Improve phone call quality and reduce dropped calls
-    fontawesome_icon_name                 : check-square-o
+    fontawesome_icon_name                 : diaspora
 #
 #  - title                                 : iPhone Device Preview
 #    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
