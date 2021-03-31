@@ -22,7 +22,7 @@ Unlike “Signal Bars” and coverage maps, which only show signal level in one 
 
 NetPulse requires no setup and includes easy-to-understand performance indicators for all skill levels, along with advanced tools for gamers and network professionals. Created by wireless industry veterans, NetPulse also benefits mobile operators by effectively extending coverage, increasing capacity (via fewer retransmissions, faster modulation), and reducing support calls.
 
-Poor wireless coverage has affected most of the worlds’ 3 billion mobile users and in some regions has created a new “mobile divide”. Remote learning and work during the pandemic have only increased the need for reliable wireless communications. The release of NetPulse is timed to enhance the global rollout of 5G, which requires more accurate signal tuning at higher frequencies, as well as to maximize existing wireless networks.
+Poor wireless coverage has affected most of the world's 3 billion mobile users and in some regions has created a new “mobile divide”. Remote learning and work during the pandemic have only increased the need for reliable wireless communications. The release of NetPulse is timed to enhance the global rollout of 5G, which requires more accurate signal tuning at higher frequencies, as well as to maximize existing wireless networks.
 
 NetPulse is now available globally on iOS and Android.  Go to **[NetPulse.App](https://netpulse.app/)** or search your app store for “**<span style="text-decoration:underline;">NetPulse</span>**”.
 
