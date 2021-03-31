@@ -55,9 +55,9 @@ Conversion notes:
 
 ** ** ** ** ** **
 
-**“$1 App Launches on iOS/Android Promising to Fix 5G, **
+** “$1 App Launches on iOS/Android Promising to Fix 5G, **
 
-**$1T Wireless Industry” **
+** $1T Wireless Industry” **
 
 ** **
 
