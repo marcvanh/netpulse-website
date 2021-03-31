@@ -6,19 +6,12 @@ include_in_header: false
 
 **<span style="text-decoration:underline;">FOR IMMEDIATE RELEASE</span>**
 
-**<span style="text-decoration:underline;">Media Contact</span>**
-
-[Press@NetPulse.App](mailto:Press@NetPulse.App)
+**<span style="text-decoration:underline;">Media Contact</span>**: [Press@NetPulse.App](mailto:Press@NetPulse.App)
 
 **"$1 App Launches on iOS/Android Promising to Fix 5G, $1T Wireless Industry"**
 
-_New App Lets Users Boost their Wireless Coverage and Performance in Seconds_
-
-
-_Innovative App Works Like a “Geiger Counter” for Wireless Signals and_
-
-_is Compatible with Cellular, WiFi and Satellite Networks Globally_
-
+_New App Lets Users Boost their Wireless Coverage and Performance in Seconds_<br>
+_Innovative App Works Like a “Geiger Counter” for Wireless Signals and is Compatible with Cellular, WiFi and Satellite Networks Globally_<br>
 _App is Especially Useful for 5G, which Requires More Accurate Signal Tuning_
 
 **West Olive, MI, March 31, 2021**– Now available globally, “NetPulse” promises to fix the Wireless Industry by enabling anyone with a mobile phone to quickly boost their coverage and performance when using Cellular, WiFi or Satellite networks.
